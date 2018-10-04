@@ -1,4 +1,4 @@
-const INITIAL_STATE = { summary: { reservado: 0, disponivel: 0 } }
+const INITIAL_STATE = { summary: { disponivel: 0, manutencao: 0, reservado: 0, emprestado: 0 } }
 
 export default function (state = INITIAL_STATE, action) {
     switch (action.type) {
